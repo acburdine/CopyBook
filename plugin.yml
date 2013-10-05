@@ -1,0 +1,9 @@
+name: CopyBook
+main: com.acburdine.copybook.CopyBook
+version: 2.1
+commands:
+  cpb:
+    description: Main command for CopyBook
+    usage: /cpb <args>
+    permission: copybook.main
+    permission-message: "You don't have permission to use this command."

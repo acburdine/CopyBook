@@ -1,0 +1,26 @@
+# Sets the file extension that the book will be saved to.
+extension: .book
+# Toggles the usage of Vault
+vault: false
+# Book and quill in hand config options
+book_in_hand:
+  # Toggles if player must have a book and quill in their hand in order to load a book.
+  load: false
+  # Toggles if player must have a book and quill in their hand in order to edit a book.
+  edit: false
+  # Toggles if player must have a book and quill in their hand in order to load a book from a sign
+  sign: false
+# Price configuration setup
+price:
+  # Toggles if price is enabled
+  enabled: false
+  # If price is enabled, then this sets the price for the commands
+  default_price: 15
+  # List of commands for which price should NOT be enabled
+  exempt_commands:
+  - example
+  # Note: you can also specify this with the /cpb price command.
+  # Toggles if you can be exempt from commands with price with the copybook.bypass permission
+  bypass: true
+  
+  
