@@ -1,4 +1,4 @@
 CopyBook
 ========
 
-Repo for CraftBukkit CopyBook Plugin
+This is the official repository for the Craftbukkit CopyBook plugin.
